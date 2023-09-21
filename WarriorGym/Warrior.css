@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#pagina-home {
+    background: linear-gradient(rgba(253, 253, 253, 0.514), rgba(248, 248, 248, 0.5)), url(../img/fundo.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    width: 150px;
+    border: 30px transparent solid;
+}
+
+.Menu ul {
+    list-style: none;
+}
+
+.Menu ul li {
+    display: inline-flex;
+}
+
+
+
+.Menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 25px 60px;
+    border: 10px solid transparent;
+    transition: 0.6s ease;
+}
+
+.Menu ul li a:hover {
+    background-color: #A9A6A6;
+    color: black;
+
+}
+
+.Menu ul li .link-ativo {
+
+    color: #A9A6A6;
+}
+
+.Academia {
+    background: url(../img/Academia.png);
+    padding: 250px;
+    border: 10px transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pagina-home2 {
+    background: linear-gradient(rgba(253, 253, 253, 0.514), rgba(248, 248, 248, 0.5)), url(../img/fundo2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.produtos {
+    padding: 0%;
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    font-size: 15px;
+}
+.produtos h1{
+    font-size: 25px;
+}
+
+.borda {
+    border: solid 10px;
+    background-color: #A9A6A6;
+    border-color: #ACA9A9;
+}
+
+.borda p {
+    text-align: left;
+
+}
+.borda img{
+    width: 220px;
+}
+
+.valor {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.valor p {
+    margin: 8px;
+}
+
+.valor ul {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0% 12%;
+}
+
+.botaocompra {
+    border: transparent solid 1px;
+    border-radius: 30px;
+    background-color: #3af00c;
+    width: 90px;
+    height: 30px;    
+    text-decoration: none;
+    color: #000000;
+    transition: 0.6s ease;
+}
+
+.valorbotao a:hover {
+
+    background-color: #208a06;
+    color: #000000;
+
+}
+
+
+
+.valorbotao {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.Social{
+    padding: 20px;
+    border: solid transparent 30px;
+    border-color: #A9A6A6;
+    background-color: #A9A6A6;
+}
+.Social img{
+    
+    width: 60px;
+}
