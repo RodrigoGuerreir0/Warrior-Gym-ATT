@@ -1,8 +1,7 @@
 body{
     background-color: #0c1014;
     color: white;
-    width: 90%;
-    max-width: 960px;
+    
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -15,9 +14,10 @@ body{
 }
 
 .header{
+  margin-top: 15px;
   display: flex;
   padding: 16px;
-  height: 350px;
+  height: 250px;
   justify-content: space-around;
   align-items: top;
 }
@@ -54,6 +54,9 @@ a.header__nav--active{
 }
 
 .pricing{
+    width: 90%;
+    max-width: 960px;
+    margin-left: 480px;
     display: flex;
     gap: 16px;
 
