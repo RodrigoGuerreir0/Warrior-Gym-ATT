@@ -1,8 +1,9 @@
 body{
     background-color: #0c1014;
     color: white;
-    
-    margin: 0 auto;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -14,12 +15,11 @@ body{
 }
 
 .header{
-  margin-top: 15px;
-  display: flex;
-  padding: 16px;
-  height: 250px;
-  justify-content: space-around;
-  align-items: top;
+    margin-top: 15px;
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo{
@@ -52,11 +52,12 @@ a.header__nav--active{
     color: #0c1014;
     pointer-events: none;
 }
+ 
+.main-title{
+    margin-top: 150px;
+}
 
 .pricing{
-    width: 90%;
-    max-width: 960px;
-    margin-left: 480px;
     display: flex;
     gap: 16px;
 
@@ -70,9 +71,6 @@ a.header__nav--active{
     box-shadow: 0 5px 15px -6px black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
 }
 .class-plan__title{
     text-transform: uppercase;
