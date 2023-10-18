@@ -74,13 +74,6 @@ a.header__nav--active {
   display: flex;
   flex-direction: column;
 }
-.class-plan__title {
-  text-transform: uppercase;
-  border-bottom: 2px solid #cbe300;
-  margin-top: 0;
-  padding-bottom: 10px;
-  letter-spacing: 2px;
-}
 
 .paginasobre {
   margin-top: 150px;
@@ -106,7 +99,6 @@ a.header__nav--active {
 .paginasobre-plan__texto {
   width: 300px; 
   font-size: 20px;
-  
 }
 
 .paginasobre-plan__title {
@@ -161,4 +153,26 @@ text-align: center;
   color: #cbe300;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.produtos-texto{
+  color: black;
+}
+.produtos-plan__title{
+  color: black;
+}
+
+.seja-aluno-plan{
+  margin-top: 100px;
+  align-items: center;
+  display: flex;
+  background:#cbe300 ;
+  border: 3px transparent solid;
+  height: 300px;
+}
+
+.seja-aluno-plan__title{
+  color: #0c1014;
+  display: flex;
+  margin-top: 10px;
 }
